@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="left">
+            <a href="/">Daniel Etie</a>
+        </div>
+
+        <div class="right">
+            <a href="https://github.com/danieletie" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/danieletie/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+            
+            <a href="mailto:danycee@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+        </div>
+    </nav>
+    
+    <main>
+        <!-- SECTION 1: Hero  -->
+        <section class="hero-section">
+            <div class="text">
+                <h2>Hello, I'm Daniel 👋🏾</h2>
+                <p>I'm an aspiring software engineer with a foundation in HTML, CSS, and JavaScript, currently looking for internship opportunities to expand my skills in full-stack  software development. I'm passionate about creating engaging, user-friendly web experiences and am excited to deepen my expertise by learning React.js and Node.js. I thrive in collaborative environments and am eager to contribute to innovative projects while growing alongside experienced professionals.</p>
+                
+                <div class="links">
+                    <a href="#skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+
+                    <a href="#testimony">
+                        <i class="fa-solid fa-pen"></i>
+                        <span>Testimony</span>
+                    </a>
+
+                    <a href="#contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="headshot">
+                <img src="./images/hero-headshot.webp" alt="daniel etie headshot">
+            </div>
+        </section>
+
+        <!-- SECTION 2: Skills  -->
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">Current skillset include HTML, CSS and JavaScript, looking to expand my knowledge of Python, React.js and Node.js and any other technology that would help me achieve my goals! </div>
+
+            <div class="cells">
+                <div class="cell">
+                    <img src="./images/html-logo.webp" alt="html logo">
+                    <span>HTML</span>
+                </div>
+
+                <div class="cell">
+                    <img src="./images/css-logo.webp" alt="css logo">
+                    <span>CSS</span>
+                </div>
+
+                <div class="cell">
+                    <img src="./images/javascript-logo.webp" alt="javascript logo">
+                    <span>JavaScript</span>
+                </div>
+
+
+            </div>
+        </section>
+
+        <!-- SECTION 3: Testimony  -->
+        <section id="testimony" class="testimony-section">
+            <h2>Testimony</h2>
+            <div class="group">
+                <div class="person-details">
+                    <img src="./images/testimony-headshot-female.webp" alt="">
+                    <p>Camilla V.</p>
+                    <p>Modern Minimalist Living Room & Kitchen Design</p>
+                </div>
+
+                <div class="text">
+                    <p><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span></p>
+                    <p>"I had a great experience working with Daniel. They brought my vision to life with precision, paying close attention to every detail and answering all my questions."</p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- SECTION 4: Contact  -->
+        <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+
+            <div class="group">
+                <div class="text">Hi there, I'd be glad to hear from you. This is a personal project and it's currently in development. So don't be dissapointed if you leave a message and it does not deliver. Alternatively, you could reach me via Github, LinkedIn and Email. <p>I look forward to hearing from you!</p></div>
+                
+
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+
+                    <label for="email">Email</label>
+                    <input type="text" id="email">
+
+                    <label for="message">Message</label>
+                    <textarea id="message" cols="30" rows="10"></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
